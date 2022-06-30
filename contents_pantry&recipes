@@ -79,3 +79,10 @@ while True:
     
     if choice == "0"
         break
+
+    elif choice in display_dict:
+        selected_item = display_dict[choice]
+        print(selected_item)
+        print("checking ingredients...")
+        ingredients = recipes[selected_item]
+        print(ingredients)
