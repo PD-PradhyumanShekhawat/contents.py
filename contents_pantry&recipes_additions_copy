@@ -88,4 +88,4 @@ while True:
             if food_item in pantry:
                 print(f"\tYou have {food_item}")
             else:
-                print(f"You are missing {food_item}")
+                print(f"\t You don't have {food_item}")
