@@ -83,3 +83,9 @@ while True:
         print("The ingredients are...")
         ingredients = recipes[selected_item]
         print(ingredients)
+
+        for food_item in ingredients:
+            if food_item in pantry:
+                print(f"\tYou have {food_item}")
+            else:
+                print(f"\tYou are missing {food_item}")
