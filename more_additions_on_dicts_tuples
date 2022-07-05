@@ -86,6 +86,12 @@ while True:
         ingredients = recipes[selected_item]
         print(ingredients)
 
+        for food_item in ingredients:
+            if food_item in pantry:
+                print(f"{food_item} OK")
+            else:
+                print(f"You are missing {food_item}")
+
 recipes_tuple = {
     "Chicken and chips": [
         ("chicken", 100),
