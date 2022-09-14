@@ -118,5 +118,5 @@ for recipe, ingredients in recipe_tuple.items():
 for recipe, ingredients in recipe_dict.items():
     print(f"Ingredients for {recipe}")
     for ingredient, quantity in ingredients.items():
-        print(ingredient, quantity, sep+", ")
+        print(ingredient, quantity, sep=", ")
         
