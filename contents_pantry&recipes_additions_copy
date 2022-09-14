@@ -70,7 +70,7 @@ for index, key in enumerate(display_dict):
 
 while True:
     print("Please chose a recipe: ")
-    print("-----------------------")
+    print("-" * 27)
     
     for key, value in display_dict.items():
         print(f"{key} - {value}")
